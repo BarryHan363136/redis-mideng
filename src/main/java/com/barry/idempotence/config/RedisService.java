@@ -6,6 +6,7 @@ import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Component;
 
 import java.io.Serializable;
+import java.lang.annotation.Annotation;
 import java.util.concurrent.TimeUnit;
 
 /**
