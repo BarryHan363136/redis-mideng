@@ -12,6 +12,6 @@ public interface TokenService {
     /**
      * 检验token
      * */
-    public boolean checkToken(HttpServletRequest request) throws Exception;
+    public boolean checkToken(HttpServletRequest request);
 
 }
